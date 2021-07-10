@@ -39,7 +39,7 @@ public class MainController {
 	@RequestMapping(value="/launchingCrawling")
 	@ResponseBody
 	public List<HashMap<String,Object>> launchingCrawling() {
-		
+		 
 		// 런칭 싸이트 조회 순위 10위까지 조회
 		String url = "https://coinvote.cc/coins/1&order_by=soon";
 		Document doc = null;        //Document에는 페이지의 전체 소스가 저장된다
